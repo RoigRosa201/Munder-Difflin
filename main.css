@@ -1,0 +1,95 @@
+/* Setting the background image and size */
+body {
+    background-image: url("https://www2.jpl.nasa.gov/wallpaper/art/Solar-system-1024_768.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px; 
+}
+/*Setting text and navigation bar placements and color */
+body {
+    color: whitesmoke;
+}
+h1 {
+    color: whitesmoke;
+}
+
+p {
+    color:whitesmoke;
+}
+nav li {
+    flex: auto;
+    color: whitesmoke
+}
+/* Paragraph text into box */
+ nav ul {
+     display: flex;
+    color: whitesmoke;
+ }
+ div {
+    /* text-align:right; */
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para{
+/* float: left; */
+width: 30%;
+border: solid 2px white;
+margin-top: 50px;
+}
+p 
+{
+    border-radius: 1em;
+    padding: 1em;
+    position: relative;
+}
+/* Subscribe bar features */
+.join {
+float: left;
+width: 5%;
+border: solid 2px white;
+margin-top: 50px;
+border-radius: 1em;
+padding: 1em;
+position: relative;
+}
+
+.logo{
+    float: left;
+
+}
+.top{
+    margin-bottom: 50px;
+}
+/* .top h1 {
+    float: left;
+    position: absolute; 
+}
+
+.top h2{
+    float: right;
+    position: relative;
+} */
+.subscribe{
+    float: right;
+}
+
+.lander {
+    margin: 20px;
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-direction: forwards;
+    
+} 
+@keyframes slidein {
+0% {
+    height:0px;
+    width: 0px;
+}
+50% {
+    height: 50%;
+    width: 50%;
+}
+}
